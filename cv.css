@@ -1,0 +1,364 @@
+*{margin: 0%; padding: 0%; font-family: 'Josefin Sans', sans-serif;}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    
+}nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+}nav ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    list-style: none;
+    transition: 0.5s;
+}nav ul li a:hover{
+  color: red;
+}.logo{
+    color: wheat;
+    font-size: 35px;
+}span{
+    color: #f9004d;
+}.btn-subs{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    padding: 7px 32px;
+    border-radius: 30px;
+    transition: 0.5s;
+}.btn-subs:hover{
+transform: scale(1.1);
+}.content{
+    margin-left: 8%;
+    margin-top: 12%;
+}.content .img img{
+    width: 435px;
+    border-radius: 5000px;
+    transition: 0.7s;
+}.content .text{
+    width: 100%;
+    line-height: 64px;
+    color: wheat;
+}.content .text h4{
+   font-size: 23px;
+   color: #fcfc;
+   letter-spacing: 3px;
+}.content .text h1{
+    font-size: 75px;
+    letter-spacing: 1px;
+}.content .text h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+}.cv{
+    text-decoration: none;
+    color: white;
+     background-color: #f9004d;
+    padding: 7px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 8px #858585;
+    transition: 0.5s;
+}.cv:hover{
+    background-color: transparent;
+    outline: none;
+    border:#f9004d 2px solid;
+}.content .img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}.face-logo{
+    margin-top: 10px;
+   margin-left: 18px;
+    width: 35px;
+}.insta-logo{
+    margin-top: 10px;
+   margin-left: 18px;
+    width: 34px;
+}.linkedin-logo{
+    margin-top: 10px;
+   margin-left: 18px;
+    width: 35px;
+}.sochiall img{
+    transition: 0.5s;
+}.sochiall img:hover{
+    transform: scale(1.2);
+}.content .img:hover img{
+    position: relative;
+    bottom: 4%;
+    transform: scale(1.1);
+}.n{
+    color: red;
+}.main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 1130px;
+  min-width: 95%;
+}.about .image img{
+    width: 435px;
+    border-radius:50px;
+}.about .about-text{
+    width: 35%;
+}.about-text h2{
+ color: wheat;
+ font-size: 75px;
+ letter-spacing: 2px;
+}.about-text h5{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}.about-text p{
+    color: #fcfc;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}.about-text button{
+    margin-top: 20px;
+    background-color: red;
+    padding: 8px 32px;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 0px 5px black ,0px 0px 5px #858585;
+    transition: 0.5s;
+}.about-text button:hover{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.about{
+ background-color: #000;
+ padding: 100px 0px;
+    
+}.service{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #101010;
+}.title h2{
+    text-align: center;
+    font-size: 75px;
+    color: wheat;
+    width: 1130px;
+    margin: 30px auto;
+}.o{
+    color: red;
+}.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}.card{
+width: 365px;
+height: 335px;
+background-color: #191919;
+padding: 20px 35px;
+border-radius: 20px;
+margin: 15px;
+position: relative;
+overflow: hidden;
+text-align: center;
+box-shadow: 0px 0px 5px black , 0px 0px 10px #858585;
+}.card h5{
+    margin-bottom: 15px;
+    color: wheat;
+    font-size: 23px;
+}.card .bars{
+    color: red;
+    font-size: 65px;
+    margin-bottom: 20px;
+}.card .pra p{
+    color: #fcfc;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}.card .btn-read{
+    text-decoration: none;
+    color: white;
+    padding: 8px 32px;
+    background-color: red;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black , 0px 0px 8px #858585;
+    transition: 0.5s;
+}.card .btn-read:hover{
+background-color: transparent;
+outline: none;
+border: solid #f9004d 2px;
+
+}.card .desk{
+    color: red;
+    font-size: 65px;
+    margin-bottom: 20px;
+}.card .bell{
+    color: red;
+    font-size: 65px;
+    margin-bottom: 20px;
+}.skills{
+    width: 100%;
+    height: auto;
+    background-color: #191919;
+    overflow: hidden;
+}.title-skills{
+    color: wheat;
+    font-size: 70px;
+    margin: 35px;
+}.img-skills img{
+    width: 120px;
+    
+}
+.img-skill img{
+    width: 435px;
+   margin-top: 100px;
+}.content-skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}.m{
+    color: red;
+}.contact-me{
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}.contact-me p{
+    color: wheat;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  
+}.hire-btn{
+    text-decoration: none;
+    color: wheat;
+    background-color: red;
+    padding: 8px 38px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px black ,0px 0px 10px #858585;
+    transition: 0.5s;
+}.hire-btn:hover{
+    background-color: transparent;
+    outline: none;
+    border: solid 2px #f9004d;
+}.footer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#191919;
+    overflow: hidden;
+}.footer h2{
+    color: wheat;
+    margin-top: 30px;
+    
+}.footer .footer-pra{
+    color: wheat;
+    margin-top: 10px;
+    width: 35%;
+}.sochial{
+    margin: 18px 100px;
+
+}.sochial .insta{
+    font-size: 22px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    border-radius: 50%;
+    padding: 8px 9px;
+    color: white;
+    margin-right: 10px;
+    transition: 0.5s;
+}.sochial .insta:hover{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid green;
+    transform: scale(1.1);
+}
+.sochial .face{
+    font-size: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    border-radius: 50%;
+    padding: 9px 13px; 
+    color: white;
+    margin-right: 10px;
+    transition: 0.5s;
+}.sochial .face:hover{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid green;
+    transform: scale(1.1);
+}
+.sochial .youtube{
+    font-size: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    border-radius: 50%;
+    padding: 8px 9px; 
+    color: white;
+    margin-right: 10px;
+    transition: 0.5s;
+}.sochial .youtube:hover{
+    background-color: transparent;
+    outline: none;
+    border: 2px solid green;
+    transform: scale(1.1);
+}
+.copyright{
+    color: red;
+    margin-top: 20px;
+}
+@media (max-width:575px) {
+    *{margin: 0%; padding: 0%;}
+    html{
+        font-size: 13px;
+    }
+    .content .img{
+        display: none;
+    }
+    nav .btn-subs{
+        display: none;
+    }
+    nav ul li{
+        display: block;
+       padding-bottom: 2px;
+       padding-right: 60px;
+    }
+    nav .logo {
+    padding-top: 25px;
+    }.content .text h1{
+        line-height: 55px;
+        font-size: 55px;
+    }.content .text h3{
+     font-size: 22px;
+    }}.face-logo{
+        margin-top: 0px;
+       margin-left: 5px;
+        width: 30px;
+    }.insta-logo{
+        margin-top: 0px;
+       margin-left: 18px;
+        width: 30px;
+    }.linkedin-logo{
+        margin-top: 0px;
+       margin-left: 18px;
+        width: 30px;
+    }.content{
+        margin-left: 4%;
+        margin-top: 12%;
+    }
